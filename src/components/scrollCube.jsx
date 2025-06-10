@@ -106,7 +106,6 @@ const RippleGrid = () => {
 
 const RippleScene = () => (
   <div style={{ width: '100%', height: '600px' }}>
-    <p>test</p>
     <Canvas camera={{ position: [0, 0, 30], fov: 50 }}>
       <ambientLight intensity={0.5} />
       <pointLight position={[30, 30, 30]} />
